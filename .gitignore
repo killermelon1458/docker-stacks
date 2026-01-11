@@ -1,0 +1,17 @@
+# ===== Docker / runtime artifacts =====
+**/logs/
+**/*.log
+
+# ===== OS / editor noise =====
+.DS_Store
+Thumbs.db
+
+# ===== Temporary / local files =====
+.env
+.env.*
+*.bak
+*.swp
+
+# ===== Python (if helper scripts are added later) =====
+__pycache__/
+*.pyc
